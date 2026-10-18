@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LUT Batch Grader</title>
+</head>
+<body>
+
+<h1>Batch LUT Grader</h1>
+
+<input type="file" id="images" multiple accept="image/*">
+<br><br>
+
+<select id="lut">
+    <option value="warm">Warm</option>
+    <option value="contrast">High Contrast</option>
+    <option value="bw">Black & White</option>
+</select>
+
+<br><br>
+
+<button onclick="processImages()">
+Apply LUT
+</button>
+
+<script>
+function processImages() {
+    alert("Processing images");
+}
+</script>
+
+</body>
+</html>
